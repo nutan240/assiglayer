@@ -27,7 +27,7 @@
     line-height: 60px;
 }
 
-.row-1 {
+.childrow1 {
     flex-grow: 1;
     background-color: red;
 }
@@ -42,7 +42,7 @@
 
 }
 
-.row-2 {
+.childrow2 {
     font-size: 13px;
     background-color: #2d72ba;
 }
@@ -56,19 +56,19 @@
     color: white;
 }
 
-.row--1 {
+.childrow1 {
     flex-grow: 4;
     background-color: red;
     font-size: 13px;
 }
 
-.row--2 {
+.childrow2 {
     flex-grow: 0.8;
     font-size: 13px;
     background-color: #2d72ba;
 }
 
-.row--3 {
+.childrow3 {
     flex-grow: 4;
     font-size: 13px;
     background-color: red;
@@ -84,19 +84,19 @@
     height: 60px;
 }
 
-.row---1 {
+.childchildrow1 {
     font-size: 13px;
     flex-grow: 5;
     background-color: red;
 }
 
-.row---2 {
+.childchildrow2 {
     font-size: 13px;
     flex-grow: .3;
     background-color: #2d72ba;
 }
 
-.row---3 {
+.childchildrow3 {
     font-size: 13px;
     flex-grow: 5;
     background-color: red;
