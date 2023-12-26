@@ -4,3 +4,100 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 70%;
+    height: 50%;
+}
+
+.row {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    color: white;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.row-1 {
+    flex-grow: 1;
+    background-color: red;
+}
+
+.row_1 {
+    font-size: 13px;
+
+}
+
+.row_3 {
+    font-size: 13px;
+
+}
+
+.row-2 {
+    font-size: 13px;
+    background-color: #2d72ba;
+}
+
+.row1 {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+}
+
+.row--1 {
+    flex-grow: 4;
+    background-color: red;
+    font-size: 13px;
+}
+
+.row--2 {
+    flex-grow: 0.8;
+    font-size: 13px;
+    background-color: #2d72ba;
+}
+
+.row--3 {
+    flex-grow: 4;
+    font-size: 13px;
+    background-color: red;
+}
+
+.row2 {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    height: 60px;
+}
+
+.row---1 {
+    font-size: 13px;
+    flex-grow: 5;
+    background-color: red;
+}
+
+.row---2 {
+    font-size: 13px;
+    flex-grow: .3;
+    background-color: #2d72ba;
+}
+
+.row---3 {
+    font-size: 13px;
+    flex-grow: 5;
+    background-color: red;
+}
